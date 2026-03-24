@@ -1,26 +1,32 @@
-## Projeto Data Cleaning
-- Esse projeto apresenta métodos utilizados na limpeza dos dados
-- Etapa importante no desenvolvimento de um pepiline de Análises de dados 
+## Data Cleaning Project
 
-## obejtivo do Projeto 
-- Mostrar a importância da etapa de limpeza, pois garante confiabilidade e consistência dos dados 
+-This project presents methods used in data cleaning
 
-## Métodos Utilizas
-### Foi utilizado a linguagem Python
-### Iniciando com a importação de bibliotecas
+-An important step in developing a data analysis pipeline
+
+## Project Objective
+
+-To demonstrate the importance of the cleaning stage, as it ensures data reliability and consistency
+
+## Methods Used
+
+### The Python language was used
+
+### Starting with importing libraries
     import pandas as pd
     import numpy as np
     import matplotlib.pyplot as plt
     import statistics as stats
     import seaborn as sns
-### Importação do dataset
+### Import do dataset
     df=pd.read_csv("dataset1.csv")
-### Visualização das informações do dataset
+### Dataset Information Visualization
      df.head()
      df.infor()
      df.describe()
-### Contagem de nulos
-### Verificação do comportamento dos nulos com gráfico 'bar chart' e 'Heatmap'
+     
+### Null Count
+### Checking null behavior using bar chart and heatmap graphs
     missing_counts = data_costumer.isnull().sum()
     plt.figure(figsize=(10,6))
     missing_counts.plot(kind='bar')
@@ -38,14 +44,15 @@
     plt.ylabel("Rows")
     plt.show()
 
-  (importante para entender o comportamento e verificar se será possivel apaga-lós)
-### Padronização de colunas 
-### Contagem de duplicatas
-### Criação de funções:
+- Important for understanding the behavior and verifying whether it will be possible to remove them
+
+### Column Standardization
+### Duplicate Count
+### Function Creation:
     # tratamento de outliers
     def iqr_bounds()
     
-### Feature engineering (categorização )
+### Feature engineering (Categorization)
 
-## Finalização 
-- Sumário 
+## Conclusion
+- Summary
